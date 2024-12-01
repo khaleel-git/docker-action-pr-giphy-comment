@@ -7,4 +7,4 @@ COPY entryproint.sh /entryproint.sh
 
 RUN chmod +x /entryproint.sh
 
-ENTRYPROIN ["/entryproint.sh"]
+ENTRYPROIN ["/entryproint.sh"] 

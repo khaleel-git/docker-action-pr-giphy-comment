@@ -2,7 +2,6 @@ on:
     pull_request:
         types:
             - opened
-
 jobs:
     testing-aciton:
         runs-on: ubuntu-latest
@@ -17,4 +16,4 @@ jobs:
               uses: ./
               with: 
                 github-token: ${{ secrets.GITHUB_TOKEN }}
-                giphy-api-key: ${{ secrets.GIPHY_API_KEY }}
+                giphy-api-key: ${{ secrets.GIPHY_API_KEY }} 
