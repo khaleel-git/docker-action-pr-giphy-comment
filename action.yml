@@ -12,4 +12,4 @@ runs:
   image: 'Dockerfile'
   args:
     - ${{ inputs.github-token }}
-    - ${{ inpus.giphy-api-key }}
+    - ${{ inputs.giphy-api-key }}
