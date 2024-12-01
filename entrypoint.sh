@@ -1,6 +1,4 @@
 #!/bin/sh
-
-
 GITHUB_TOKEN=$1
 GIPHY_API_KEY=$2
 

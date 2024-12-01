@@ -1,4 +1,3 @@
-# action.yml
 name: 'Giphy PR Comment'
 description: 'Add a Giphy GIF comment to new pull requests.'
 inputs:
@@ -8,8 +7,6 @@ inputs:
   giphy-api-key:
     description: 'Giphy API Key'
     required: true
-
-
 runs:
   using: 'docker'
   image: 'Dockerfile'
