@@ -9,7 +9,7 @@ pull_request_number=$(jq --raw-output .pull_request.number "$GITHUB_EVENT_PATH")
 echo "PR Number - $pull_request_number"
 
 # Fetch a random GIF from Giphy
-giphy_response=$ (curl -s "https://api.giphy.com/v1/gifs/random?api_key=$GIPHY_API_KEY&tag=&rating=g")
+giphy_response=$(curl -s "https://api.giphy.com/v1/gifs/random?api_key=$GIPHY_API_KEY&tag=ok&rating=g")
 echo "Giphy Response - $giphy_response"
 
 # Extract the GIF URL from the Giphy response
