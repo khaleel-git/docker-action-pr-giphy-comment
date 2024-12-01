@@ -1,7 +1,7 @@
 #!/bin/sh
 
 # Ensure variables are provided
-GITHUB_TOKEN=$1
+GITHUB_TOKEN=$1 
 GIPHY_API_KEY=$2
 
 # Extract the pull request number from the GitHub event file
